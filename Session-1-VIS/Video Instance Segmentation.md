@@ -1,4 +1,4 @@
-#### VIDEO INSTANCE SEGMENTATION
+# VIDEO INSTANCE SEGMENTATION
 
 * Started by Adobe for their work 
 
