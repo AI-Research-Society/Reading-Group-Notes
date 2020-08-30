@@ -36,3 +36,8 @@ In the paper, they used _IOUTracker+_ which include the instance consistencies a
 ![assets/img2.png](assets/img2.png)
 
  
+## Other Related Papers:
+* [Classifying, Segmenting, and Tracking Object Instances in Video with Mask Propagation](https://arxiv.org/pdf/1912.04573.pdf) 
+* [TubeTK: Adopting Tubes to Track Multi-Object in a One-Step Training Model](https://arxiv.org/pdf/2006.05683.pdf) 
+* [STEm-Seg: Spatio-temporal Embeddings for Instance Segmentation in Videos](https://arxiv.org/pdf/2003.08429.pdf) 
+* [SipMask: Spatial Information Preservation for Fast Image and Video Instance Segmentation](https://arxiv.org/pdf/2007.14772.pdf)
