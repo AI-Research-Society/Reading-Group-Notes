@@ -1,7 +1,7 @@
 # Heart Rate Estimation using CNNs and DSP
 
 
-### Detecting Pulse from Head Motion in Video
+### Detecting Pulse from Head Motion in Video [pdf](https://people.csail.mit.edu/mrub/vidmag/papers/Balakrishnan_Detecting_Pulse_from_2013_CVPR_paper.pdf)
 
 -   Newtonian reaction from influx of blood    
     -   That is, head wobbles when blood rushes in head (simple Newton's 3rd Law)
@@ -11,7 +11,7 @@
 -   Signals matching closest to human heart rates are taken.
 
 
-### Non-contact heart rate monitoring by combining CNN skin detection and remote photoplethysmography via a low-cost camera
+### Non-contact heart rate monitoring by combining CNN skin detection and remote photoplethysmography via a low-cost camera [pdf](https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w27/Tang_Non-Contact_Heart_Rate_CVPR_2018_paper.pdf)
 
 -   Uses minor color variations instead of micro-motions.
 -   Used CNN to classify 64 x 64 crop as a skin portion or not.
@@ -21,14 +21,14 @@
 
 ![assets/img1.png](assets/img1.png)
 
-### Remote Heart Rate Measurement from Face Videos under Realistic Situations
+### Remote Heart Rate Measurement from Face Videos under Realistic Situations [pdf](https://openaccess.thecvf.com/content_cvpr_2014/papers/Li_Remote_Heart_Rate_2014_CVPR_paper.pdf)
 
 -   This method performs Illumination Rectification.
 
 ![assets/img2.png](assets/img2.png)
 
 
-### Remote Heart Rate Measurement from Highly Compressed Facial Videos: end-to-end DL solution with Video Enhancement
+### Remote Heart Rate Measurement from Highly Compressed Facial Videos: end-to-end DL solution with Video Enhancement [pdf](https://arxiv.org/pdf/1907.11921.pdf)
 
 -   Hidden rPPG information enhancement and attention networks used.
 -   The method includes two parts:
@@ -43,7 +43,7 @@
 ![assets/img3.png](assets/img3.png)
 
 
-### Meta-rPPG: Remote Heart Rate Estimation using a Transductive Meta-Learner
+### Meta-rPPG: Remote Heart Rate Estimation using a Transductive Meta-Learner [pdf](https://arxiv.org/pdf/2007.06786.pdf)
 
 -   This method is similar to the previous end-to-end DL solution.
 -   The advantage is that it uses Transductive inference. Transductive inference is a common scenario where the learner, in addition to a labeled training sample, has access to all of the test points, without their labels.
