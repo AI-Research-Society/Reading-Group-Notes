@@ -1,4 +1,3 @@
-﻿
 # Heart Rate Estimation using CNNs and DSP
 
 
@@ -19,11 +18,13 @@
 -   Training for this network was done in supervised manner using a custom dataset.
 -   Sliding window and above CNN is used to obtain all obtainable skin portion in the image (output is a binary mask, used to dot product with the features for subsequent steps).
 -   **Note:** This method does not perform Illumination Rectification.
+
 ![assets/img1.png](assets/img1.png)
 
 ### Remote Heart Rate Measurement from Face Videos under Realistic Situations
 
 -   This method performs Illumination Rectification.
+
 ![assets/img2.png](assets/img2.png)
 
 
@@ -38,6 +39,7 @@
 -   STVEN: match video distribution - conditional distribution for generator output and original uncompressed video should be equal. Losses: L1 reconstruction + cycle-loss (for better reconstruction)
 -   rPPGNet: end-to-end spatio-temporal CNN to predict rPPG signal directly from T-frame video. Authors also introduce a parallel skin segmentation branch (with attention mechanism), as detecting skin accurately is highly desirable for rPPG.
 -   rPPGNet independently outperforms on various benchmarks, with fine-grained learning using STVEN enhancing performance further.
+
 ![assets/img3.png](assets/img3.png)
 
 
